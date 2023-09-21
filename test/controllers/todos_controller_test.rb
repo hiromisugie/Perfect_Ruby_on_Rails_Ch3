@@ -6,13 +6,13 @@ class TodosControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get index" do
-#    get todos_url
-#    assert_response :success
+    get todos_url
+    assert_response :success
   end
 
   test "should get new" do
-#    get new_todo_url
-#    assert_response :success
+    get new_todo_url
+    assert_response :success
   end
 
   test "should create todo" do
@@ -24,13 +24,13 @@ class TodosControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should show todo" do
-#    get todo_url(@todo)
-#    assert_response :success
+    get todo_url(@todo)
+    assert_response :success
   end
 
   test "should get edit" do
-#    get edit_todo_url(@todo)
-#    assert_response :success
+    get edit_todo_url(@todo)
+    assert_response :success
   end
 
   test "should update todo" do
